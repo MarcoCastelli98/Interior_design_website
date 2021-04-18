@@ -52,7 +52,7 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #D4CDC5;
+    color: #B69083;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -140,6 +140,8 @@ body {
     background-color: #B69083;
 }
 
+/* Footer*/
+
 
 /* Flexslider */
 
@@ -216,7 +218,28 @@ body {
     outline: 0;
 }
 
+.btn-consulenze{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
+.btn-fom{
+    background-color: #B69083;
+}
+
+.btn-fom:hover{
+    color: #ffffff;
+    background-color: #e7b6a9;
+}
+
+.btn-add-to-cart{
+    background-color: #7D363C;
+}
+
+.btn-add-to-cart:hover{
+    color: #ffffff;
+    background-color: #a54652;
+}
 /* Testata */
 
 .header-sezione {
