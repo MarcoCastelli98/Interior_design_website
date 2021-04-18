@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Hello World! Example</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <!-- Fogli di stile -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/myStyle.css?v=version2">
+        <link rel="stylesheet" href="css/carousel.css?v=version2">
+
+        <!-- jQuery e plugin JavaScript  -->
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Add your site or application content here -->
+
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img class="resize-brand-img" src="img/LOGO.jpg">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="chi_sono.html">chi sono</a></li>
+                            <li class="active dropdown">
+                                <a href="consulenze.html">Consulenze</a>
+                                <!--<a href="consulenze.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">consulenze<span class="caret"></span></a> -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Cucina</a></li>
+                                    <li><a href="#">Camera da letto</a></li>
+                                    <li><a href="#">Soggiorno</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">contattami</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Accedi</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Carrello</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <h1>LE MIE CONSULENZE D'ARREDO</h1>
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Camera da letto </h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <button>Scopri di più</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/consulenze/camera-da-letto-completa-moderna.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading">Cucina</h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                    <img src="img/consulenze/cucina-moderna.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Soggiorno</h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                </div>
+                <div class="col-md-5">
+                    <img src="img/consulenze/soggiorno-moderno.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+
+            </div>
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+
+                <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+
+        </div><!-- /.container -->
+
+    </body>
+</html>
