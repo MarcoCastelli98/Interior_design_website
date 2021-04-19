@@ -144,7 +144,9 @@ body {
 .footer {
     background-color: #B69083;
 }
-
+.input-group{
+    display: block;
+}
 /* Flexslider */
 
 .flexslider {

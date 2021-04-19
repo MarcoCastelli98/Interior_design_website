@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="added new pages&#10;TODO: fix carousel and footer">
-      <change afterPath="$PROJECT_DIR$/img/consulenze/camere_da_letto/camera1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/consulenze/camere_da_letto/camera2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/consulenze/camere_da_letto/camera3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/instagram_logo.jpg" afterDir="false" />
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="fixed carousel &amp; start fixing footer">
+      <change afterPath="$PROJECT_DIR$/img/insta_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_letto.html" beforeDir="false" afterPath="$PROJECT_DIR$/camera_letto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/consulenze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/consulenze/camere_da_letto/camera1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/consulenze/camere_da_letto/camera2.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/consulenze/camere_da_letto/camera3.jfif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +56,8 @@
       <workItem from="1618731333334" duration="132000" />
       <workItem from="1618731544743" duration="5557000" />
       <workItem from="1618749137327" duration="5663000" />
-      <workItem from="1618814014155" duration="7606000" />
+      <workItem from="1618814014155" duration="7834000" />
+      <workItem from="1618839130184" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -96,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618769280350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed carousel &amp; start fixing footer">
+      <created>1618823480755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618823480755</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +116,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ended the homepage design (footer left) and started consulenze page" />
     <MESSAGE value="added new pages&#10;TODO: fix carousel and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new pages&#10;TODO: fix carousel and footer" />
+    <MESSAGE value="fixed carousel &amp; start fixing footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed carousel &amp; start fixing footer" />
   </component>
 </project>
