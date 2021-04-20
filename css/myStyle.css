@@ -144,10 +144,44 @@ body {
 .footer {
     background-color: #B69083;
 }
-.input-group{
+.footer h3 {
+    color: #7D363C;
+}
+
+.footer p{
+    color: black;
+}
+.footer-logo{
+    margin-top:20px;
+}
+
+.footer .input-group{
     display: block;
 }
-/* Flexslider */
+.footer .input-group .form-control {
+    width: 60%;
+    margin-bottom: 0;
+}
+
+.footer .btn-primary{
+    padding: 8px 9px 10px 9px;
+    background-color: #7D363C;
+    text-decoration: none;
+}
+
+.footer .btn-primary:hover{
+    background-color: #a84a52;
+}
+
+.footer .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+    /* Flexslider */
 
 .flexslider {
     margin: 0 0 30px; 
@@ -406,13 +440,13 @@ footer a, footer a:hover {color: #5cb85c;}
 
 /* Stile per modificare e sovrascrivere l'aspetto degli input di Bootstrap */
 
-.form-control {
+/*.form-control {
     height: 32px;
     padding: 6px 12px;
     color: #333333;
     border-radius: 0;
 }
-
+*/
 
 
 /* Testata portfolio */
