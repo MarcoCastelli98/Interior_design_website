@@ -278,6 +278,10 @@ body {
     color: #ffffff;
     background-color: #a54652;
 }
+.btn-center{
+    position: absolute;
+    right: 36%;
+}
 /* Testata */
 
 .header-sezione {

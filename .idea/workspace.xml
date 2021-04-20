@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="keep fixing footer">
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="footer fixed">
+      <change afterPath="$PROJECT_DIR$/articolo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/shop/libri-design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/shop/party-kit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prodotto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/camera_letto.html" beforeDir="false" afterPath="$PROJECT_DIR$/camera_letto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/consulenze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -39,6 +46,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +71,9 @@
       <workItem from="1618839130184" duration="1774000" />
       <workItem from="1618840948087" duration="63000" />
       <workItem from="1618905987113" duration="227000" />
-      <workItem from="1618906320743" duration="3783000" />
+      <workItem from="1618906320743" duration="3988000" />
+      <workItem from="1618920531207" duration="200000" />
+      <workItem from="1618921718871" duration="5134000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -106,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618840907118</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="footer fixed">
+      <created>1618916762559</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618916762559</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +148,11 @@
     <MESSAGE value="added new pages&#10;TODO: fix carousel and footer" />
     <MESSAGE value="fixed carousel &amp; start fixing footer" />
     <MESSAGE value="keep fixing footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="keep fixing footer" />
+    <MESSAGE value="footer fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer fixed" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
