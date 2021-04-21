@@ -20,6 +20,10 @@ body {
   z-index: 10; /* Since positioning the image, we need to help out the caption */
 }
 
+.carousel-index-caption {
+  margin-bottom: 210px;/* Since positioning the image, we need to help out the caption */
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
@@ -98,6 +102,9 @@ body {
   }
 
   /* Bump up size of carousel content */
+  .carousel-caption h1{
+    font-size: 70px;
+  }
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;

@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="footer fixed">
-      <change afterPath="$PROJECT_DIR$/articolo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/shop/libri-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/shop/party-kit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prodotto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="adding new pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_letto.html" beforeDir="false" afterPath="$PROJECT_DIR$/camera_letto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/consulenze.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +65,8 @@
       <workItem from="1618905987113" duration="227000" />
       <workItem from="1618906320743" duration="3988000" />
       <workItem from="1618920531207" duration="200000" />
-      <workItem from="1618921718871" duration="5134000" />
+      <workItem from="1618921718871" duration="5334000" />
+      <workItem from="1618992070418" duration="2216000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -124,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618916762559</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding new pages">
+      <created>1618927039873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618927039873</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +149,8 @@
     <MESSAGE value="fixed carousel &amp; start fixing footer" />
     <MESSAGE value="keep fixing footer" />
     <MESSAGE value="footer fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer fixed" />
+    <MESSAGE value="adding new pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding new pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
