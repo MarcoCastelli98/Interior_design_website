@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Hello World! Example</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <!-- Fogli di stile -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/myStyle.css?v=version2">
+        <link rel="stylesheet" href="css/carousel.css?v=version2">
+        <link rel="stylesheet" href="css/loginStyle.css?v=version2">
+
+        <!-- jQuery e plugin JavaScript  -->
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Add your site or application content here -->
+
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img class="resize-brand-img" src="img/LOGO.jpg">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="chi_sono.html">chi sono</a></li>
+                            <li class="dropdown">
+                                <a href="consulenze.html">Consulenze</a>
+                                <!--<a href="consulenze.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">consulenze<span class="caret"></span></a> -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Cucina</a></li>
+                                    <li><a href="camera_letto.html">Camera da letto</a></li>
+                                    <li><a href="#">Soggiorno</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                            <li><a href="#">contattami</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Accedi</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Carrello</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <div class="container">
+                <div class="row main">
+                    <div class="panel-heading">
+                        <div class="panel-title text-center">
+                            <h1 class="title">REGISTRATI</h1>
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="main-login main-center">
+                        <form class="form-horizontal" method="post" action="#">
+                            <div class="form-group">
+                                <label for="username" class="cols-sm-2 control-label">Username</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                                        <input type="text" class="form-control" name="username" id="username"  placeholder="Inserisci il tuo username"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="cols-sm-2 control-label">Password</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></i></span>
+                                        <input type="password" class="form-control" name="password" id="password"  placeholder="Inserisci la tua password"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="cols-sm-2 control-label">Ripeti password</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></i></span>
+                                        <input type="password" class="form-control" name="password" id="password"  placeholder="Inserisci nuovamente la tua password"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="username" class="cols-sm-2 control-label">Indirizzo email</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-inbox" aria-hidden="true"></span></span>
+                                        <input type="text" class="form-control" name="username" id="username"  placeholder="Inserisci il tuo indirizzo email"/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group ">
+                                <button type="button" class="btn btn-primary btn-lg btn-block login-button">Registrati</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+                <footer class="bg-white footer">
+                    <div class="container py-5">
+                        <div class="row py-4">
+                            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                <img src="img/LOGO.jpg" alt="" width="180" class="mb-3 footer-logo">
+                                <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                <!--<ul class="list-inline mt-4">
+                                    <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                                </ul>-->
+                            </div>
+                            <!--<div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                                <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
+                                    <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
+                                    <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
+                                    <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+                                </ul>
+                            </div>
+                            -->
+                            <div class="col-lg-4 col-md-6 mb-lg-0">
+                                <h3 class="text-uppercase font-weight-bold mb-4">Seguici su</h3>
+                                <a href="https://www.instagram.com">
+                                    <img src="img/insta_logo.png" width="40" class="mb-3">
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-lg-0">
+                                <h3 class="text-uppercase font-weight-bold mb-4">Iscriviti alla newsletter</h3>
+                                <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+                                <div class="p-1 rounded border">
+                                    <div class="input-group">
+                                        <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                                        <a href="#" class="btn-primary">Iscriviti</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Copyrights -->
+                    <div class="bg-light py-4">
+                        <div class="container text-center">
+                            <p class="text-muted mb-0 py-2">© 2021 FedericaB_Arch.it All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End -->
+
+
+            </div><!-- /.container -->
+        </div>
+    </body>
+</html>
