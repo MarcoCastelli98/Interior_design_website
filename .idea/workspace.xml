@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="index page fixed">
-      <change afterPath="$PROJECT_DIR$/contatti.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/contactsStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/loginStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_account.html" afterDir="false" />
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="added login and contacts pages">
+      <change afterPath="$PROJECT_DIR$/area_utente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reservedAreaStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bianchin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/biography.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mappa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pretty-1-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pretty-2-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pretty-3-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pretty-4-th.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project_icon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prodotto.html" beforeDir="false" afterPath="$PROJECT_DIR$/prodotto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teaching.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +74,9 @@
       <workItem from="1618920531207" duration="200000" />
       <workItem from="1618921718871" duration="5334000" />
       <workItem from="1618992070418" duration="3108000" />
-      <workItem from="1619095195020" duration="4539000" />
+      <workItem from="1619095195020" duration="4781000" />
+      <workItem from="1619339331161" duration="1135000" />
+      <workItem from="1619355082013" duration="4067000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -155,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618994590759</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added login and contacts pages">
+      <created>1619099998890</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619099998890</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +175,8 @@
     <MESSAGE value="footer fixed" />
     <MESSAGE value="adding new pages" />
     <MESSAGE value="index page fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="index page fixed" />
+    <MESSAGE value="added login and contacts pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login and contacts pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
