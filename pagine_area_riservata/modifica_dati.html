@@ -10,14 +10,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
         <!-- Fogli di stile -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/myStyle.css?v=version2">
-        <link rel="stylesheet" href="css/carousel.css?v=version2">
-        <link rel="stylesheet" href="css/reservedAreaStyle.css?v=version2">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/myStyle.css?v=version2">
+        <link rel="stylesheet" href="../css/carousel.css?v=version2">
+        <link rel="stylesheet" href="../css/loginStyle.css?v=version2">
 
         <!-- jQuery e plugin JavaScript  -->
         <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -33,73 +33,95 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">
-                            <img class="resize-brand-img" src="img/LOGO.jpg">
+                        <a class="navbar-brand" href="../index.html">
+                            <img class="resize-brand-img" src="../img/LOGO.jpg">
                         </a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">home<span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="../index.html">home<span class="sr-only">(current)</span></a></li>
                             <li><a href="chi_sono.html">chi sono</a></li>
                             <li class="dropdown">
-                                <a href="consulenze.html">Consulenze</a>
+                                <a href="../consulenze.html">Consulenze</a>
                                 <!--<a href="consulenze.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">consulenze<span class="caret"></span></a> -->
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Cucina</a></li>
-                                    <li><a href="camera_letto.html">Camera da letto</a></li>
+                                    <li><a href="../pagine_consulenze/camera_letto.html">Camera da letto</a></li>
                                     <li><a href="#">Soggiorno</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="shop.html">shop</a></li>
-                            <li><a href="contatti.html">contattami</a></li>
+                            <li><a href="../blog.html">blog</a></li>
+                            <li><a href="../shop.html">shop</a></li>
+                            <li><a href="#">contattami</a></li>
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Accedi</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Accedi</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Carrello</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
 
-            <h1>Benevenuto utente</h1>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <a href="#" style="text-decoration: none">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="img/shop/libri-design.jpg">
-                            <h2>Visualizza storico prodotti</h2>
+            <div class="container">
+                <div class="row main">
+                    <div class="panel-heading">
+                        <div class="panel-title text-center">
+                            <h1 class="title">Modifica dati</h1>
+                            <hr />
                         </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <a href="#" style="text-decoration: none">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="img/shop/libri-design.jpg">
-                            <h2>Modifica dati personali</h2>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <a href="#" style="text-decoration: none">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="img/shop/libri-design.jpg">
-                            <h2>Dammi la tua opinione</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <a href="#" style="text-decoration: none">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="img/shop/libri-design.jpg">
-                            <h2>Contattami</h2>
-                        </div>
-                    </a>
+                    </div>
+                    <div class="main-login main-center">
+                        <form class="form-horizontal" method="post" action="#">
+                            <div class="form-group">
+                                <label for="username" class="cols-sm-2 control-label">Username</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                                        <input type="text" class="form-control" name="username" id="username"  placeholder="Inserisci il tuo username"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="cols-sm-2 control-label">Password</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></i></span>
+                                        <input type="password" class="form-control" name="password" id="password"  placeholder="Inserisci la tua password"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="cols-sm-2 control-label">Ripeti password</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></i></span>
+                                        <input type="password" class="form-control" name="password" id="password"  placeholder="Inserisci nuovamente la tua password"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="username" class="cols-sm-2 control-label">Indirizzo email</label>
+                                <div class="cols-sm-10">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-inbox" aria-hidden="true"></span></span>
+                                        <input type="text" class="form-control" name="username" id="username"  placeholder="Inserisci il tuo indirizzo email"/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group ">
+                                <button type="button" class="btn btn-primary btn-lg btn-block login-button">Salva</button>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
             </div>
 
@@ -108,7 +130,7 @@
                     <div class="container py-5">
                         <div class="row py-4">
                             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                                <img src="img/LOGO.jpg" alt="" width="180" class="mb-3 footer-logo">
+                                <img src="../img/LOGO.jpg" alt="" width="180" class="mb-3 footer-logo">
                                 <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                                 <!--<ul class="list-inline mt-4">
                                     <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -128,7 +150,7 @@
                             <div class="col-lg-4 col-md-6 mb-lg-0">
                                 <h3 class="text-uppercase font-weight-bold mb-4">Seguici su</h3>
                                 <a href="https://www.instagram.com">
-                                    <img src="img/insta_logo.png" width="40" class="mb-3">
+                                    <img src="../img/insta_logo.png" width="40" class="mb-3">
                                 </a>
                             </div>
 
@@ -156,5 +178,6 @@
 
 
             </div><!-- /.container -->
+        </div>
     </body>
 </html>

@@ -10,13 +10,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
         <!-- Fogli di stile -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/myStyle.css?v=version2">
-        <link rel="stylesheet" href="css/carousel.css?v=version2">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/myStyle.css?v=version2">
+        <link rel="stylesheet" href="../css/carousel.css?v=version2">
 
         <!-- jQuery e plugin JavaScript  -->
         <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -32,18 +32,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">
-                            <img class="resize-brand-img" src="img/LOGO.jpg">
+                        <a class="navbar-brand" href="../index.html">
+                            <img class="resize-brand-img" src="../img/LOGO.jpg">
                         </a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.html">home<span class="sr-only">(current)</span></a></li>
+                            <li ><a href="../index.html">home<span class="sr-only">(current)</span></a></li>
                             <li><a href="chi_sono.html">chi sono</a></li>
-                            <li class="active dropdown">
-                                <a href="consulenze.html">Consulenze</a>
+                            <li class="dropdown">
+                                <a class="active" href="../consulenze.html">Consulenze</a>
                                 <!--<a href="consulenze.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">consulenze<span class="caret"></span></a> -->
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Cucina</a></li>
@@ -51,7 +51,7 @@
                                     <li><a href="#">Soggiorno</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="../blog.html">blog</a></li>
                             <li><a href="#">shop</a></li>
                             <li><a href="#">contattami</a></li>
                         </ul>
@@ -64,54 +64,83 @@
                 </div><!-- /.container-fluid -->
             </nav>
 
-            <h1>Esempio Articolo</h1>
+
+            <!-- Carousel ================================================== -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active" style="background-image: url('../img/consulenze/camere_da_letto/camera1.jpg')">
+                            <!--<img class="first-slide" src="img/consulenze/camere_da_letto/camera1.jpg" alt="First slide"> -->
+                       </div>
+                       <div class="item" style="background-image: url('../img/consulenze/camere_da_letto/camera2.jpg')">
+                           <!--<img class="second-slide" src="img/consulenze/camere_da_letto/camera2.jpg" alt="Second slide">-->
+                       </div>
+                       <div class="item" style="background-image: url('../img/consulenze/camere_da_letto/camera3.jpg')">
+                           <!--<img class="third-slide" src="img/consulenze/camere_da_letto/camera3.jpg" alt="Third slide">-->
+                       </div>
+                   </div>
+                   <div class="container">
+                       <div class="carousel-caption">
+                           <h1>CAMERE DA LETTO</h1>
+                           <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                       </div>
+                   </div>
+                   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                       <span class="sr-only">Previous</span>
+                   </a>
+                   <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                       <span class="sr-only">Next</span>
+                   </a>
+               </div><!-- /.carousel -->
 
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <a href="#" class="btn btn-default btn-lg btn-consulenze btn-add-to-cart">Aggiungi al carrello</a>
 
-            <h2>Leggi altri articoli</h2>
-            <!-- START THE FEATURETTES -->
-
-
-            <div class="row featurette">
-                <div class="col-md-7 col-md-push-5">
-                    <h2 class="featurette-heading">Stile floreale</h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom">Leggi articolo</a>
-                </div>
-                <div class="col-md-5 col-md-pull-7">
-                    <img src="img/consulenze/camera-da-letto-completa-moderna.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-
+            <p class="lead">Dai un'occhiata ad altre consulenze</p>
             <hr class="featurette-divider">
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Idee per decorare il soggiorno</h2>
+                    <h2 class="featurette-heading">Camera da letto </h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom">Leggi articolo</a>
-            </div>
-                <div class="col-md-5">
-                    <img src="img/consulenze/soggiorno-moderno.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <a href="camera_letto.html" class="btn btn-default btn-lg btn-consulenze btn-fom">Scopri di più</a>
+                    <a href="#" class="btn btn-default btn-lg btn-consulenze btn-add-to-cart">Aggiungi al carrello</a>
                 </div>
-
+                <div class="col-md-5">
+                    <img src="../img/consulenze/camera-da-letto-completa-moderna.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
             </div>
+
             <hr class="featurette-divider">
 
-            <!-- /END THE FEATURETTES -->
+            <div class="row featurette">
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading">Cucina</h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom">Scopri di più</a>
+                    <a href="#" class="btn btn-default btn-lg btn-consulenze
+                    btn-add-to-cart">Aggiungi al carrello</a>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                    <img src="../img/consulenze/camera-da-letto-completa-moderna.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
+            </div>
 
+            <hr class="featurette-divider">
 
             <!-- Footer -->
             <footer class="bg-white footer">
                 <div class="container py-5">
                     <div class="row py-4">
                         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                            <img src="img/LOGO.jpg" alt="" width="180" class="mb-3 footer-logo">
+                            <img src="../img/LOGO.jpg" alt="" width="180" class="mb-3 footer-logo">
                             <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                             <!--<ul class="list-inline mt-4">
                                 <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -131,7 +160,7 @@
                         <div class="col-lg-4 col-md-6 mb-lg-0">
                             <h3 class="text-uppercase font-weight-bold mb-4">Seguici su</h3>
                             <a href="https://www.instagram.com">
-                                <img src="img/insta_logo.png" width="40" class="mb-3">
+                                <img src="../img/insta_logo.png" width="40" class="mb-3">
                             </a>
                         </div>
 
@@ -156,8 +185,7 @@
                 </div>
             </footer>
             <!-- End -->
-
-        </div><!-- /.container -->
-
+            </div><!-- /.container -->
+        </div>
     </body>
 </html>
