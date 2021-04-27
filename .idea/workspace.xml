@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="added external user area">
-      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/modifica_dati.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_articoli.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/storico_prodotti.html" afterDir="false" />
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="structure refactoring &amp; add admin page">
+      <change afterPath="$PROJECT_DIR$/carrello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contactsStyle2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/modifyAreaStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/shoppingCartStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_articolo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_consulenza.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_prodotto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/area_utente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/area_utente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articolo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_blog/articolo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_letto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_consulenze/camera_letto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/consulenze.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contatti.html" beforeDir="false" afterPath="$PROJECT_DIR$/contatti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/loginStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loginStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reservedAreaStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reservedAreaStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/new_account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prodotto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_shop/prodotto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1rKilILNMdKi8C6PpbYEFbBiekq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,9 +68,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Interior_design_website\css" />
       <recent name="C:\wamp64\www\Interior_design_website" />
       <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata\pagine_admin" />
-      <recent name="C:\wamp64\www\Interior_design_website\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata\pagine_admin" />
@@ -103,6 +105,10 @@
       <workItem from="1619359569332" duration="226000" />
       <workItem from="1619372423232" duration="411000" />
       <workItem from="1619440393153" duration="4432000" />
+      <workItem from="1619444912986" duration="219000" />
+      <workItem from="1619526262433" duration="3788000" />
+      <workItem from="1619530116218" duration="4228000" />
+      <workItem from="1619545212871" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -188,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619359510157</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="structure refactoring &amp; add admin page">
+      <created>1619445110013</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619445110013</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +230,8 @@
     <MESSAGE value="index page fixed" />
     <MESSAGE value="added login and contacts pages" />
     <MESSAGE value="added external user area" />
-    <option name="LAST_COMMIT_MESSAGE" value="added external user area" />
+    <MESSAGE value="structure refactoring &amp; add admin page" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure refactoring &amp; add admin page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

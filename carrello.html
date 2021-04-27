@@ -13,10 +13,11 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/myStyle.css?v=version2">
         <link rel="stylesheet" href="css/carousel.css?v=version2">
+        <link rel="stylesheet" href="css/shoppingCartStyle.css?v=version2">
 
         <!-- jQuery e plugin JavaScript  -->
         <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -40,9 +41,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.html">home<span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="index.html">home<span class="sr-only">(current)</span></a></li>
                             <li><a href="chi_sono.html">chi sono</a></li>
-                            <li class="active dropdown">
+                            <li class="dropdown">
                                 <a href="consulenze.html">Consulenze</a>
                                 <!--<a href="consulenze.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">consulenze<span class="caret"></span></a> -->
                                 <ul class="dropdown-menu">
@@ -52,99 +53,55 @@
                                 </ul>
                             </li>
                             <li><a href="blog.html">blog</a></li>
-                            <li><a href="#">shop</a></li>
-                            <li><a href="#">contattami</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                            <li><a href="contatti.html">contattami</a></li>
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Accedi</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Carrello</a></li>
+                            <li><a href="login.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Accedi</a></li>
+                            <li><a href="carrello.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Carrello</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
 
-            <!-- Carousel ================================================== -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active" style="background-image: url('img/consulenze/camere_da_letto/camera1.jpg')">
-                        <!--<img class="first-slide" src="img/consulenze/camere_da_letto/camera1.jpg" alt="First slide"> -->
-                    </div>
-                    <div class="item" style="background-image: url('img/consulenze/camere_da_letto/camera2.jpg')">
-                        <!--<img class="second-slide" src="img/consulenze/camere_da_letto/camera2.jpg" alt="Second slide">-->
-                    </div>
-                    <div class="item" style="background-image: url('img/consulenze/camere_da_letto/camera3.jpg')">
-                        <!--<img class="third-slide" src="img/consulenze/camere_da_letto/camera3.jpg" alt="Third slide">-->
+            <h1>Prodotti nel carrello</h1>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <img class="resize-list-img" src="img/shop/party-kit.jpg">
+                </div>
+                <div class="col-xs-12 col-md-9">
+                    <h2>Prodotto 1</h2>
+                    <p class="lead">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <div class="btn-position">
+                        <p class=" price-position">29.99€</p>
+                        <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom ">Scopri di più</a>
+                        <a href="#" class="btn btn-default btn-lg btn-consulenze btn-add-to-cart ">Rimuovi</a>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>BLOG</h1>
-                        <p><a class="btn btn-lg btn-primary btn-add-to-cart" href="#" role="button">Vai al carrello</a></p>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <img class="resize-list-img" src="img/consulenze/cucina-moderna.jpg">
+                </div>
+                <div class="col-xs-12 col-md-9">
+                    <h2>Prodotto 2</h2>
+                    <p class="lead">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <div class="btn-position">
+                        <p class=" price-position">39.99€</p>
+                        <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom ">Scopri di più</a>
+                        <a href="#" class="btn btn-default btn-lg btn-consulenze btn-add-to-cart ">Rimuovi</a>
                     </div>
                 </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div><!-- /.carousel -->
-
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <h1>Ultimi articoli</h1>
-            <!-- START THE FEATURETTES -->
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Stile nordico </h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    <a href="pagine_blog/articolo.html" class="btn btn-default btn-lg btn-consulenze btn-fom">Leggi articolo</a>
-                </div>
-                <div class="col-md-5">
-                    <img src="img/consulenze/camera-da-letto-completa-moderna.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
             </div>
+            <hr>
 
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 col-md-push-5">
-                    <h2 class="featurette-heading">Stile floreale</h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom">Leggi articolo</a>
-                </div>
-                <div class="col-md-5 col-md-pull-7">
-                    <img src="img/consulenze/camera-da-letto-completa-moderna.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
+            <div class="btn-pay-position">
+                <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom ">Paga ora</a>
+                <a href="#" class="btn btn-default btn-lg btn-consulenze btn-add-to-cart ">Svuota carello</a>
             </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Idee per decorare il soggiorno</h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    <a href="#" class="btn btn-default btn-lg btn-consulenze btn-fom">Leggi articolo</a>
-            </div>
-                <div class="col-md-5">
-                    <img src="img/consulenze/soggiorno-moderno.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-
-            </div>
-            <hr class="featurette-divider">
-
-            <!-- /END THE FEATURETTES -->
 
 
             <!-- Footer -->

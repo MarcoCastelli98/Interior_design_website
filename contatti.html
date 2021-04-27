@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/myStyle.css?v=version2">
         <link rel="stylesheet" href="css/carousel.css?v=version2">
-        <link rel="stylesheet" href="css/contactsStyle.css?v=version2">
+        <link rel="stylesheet" href="css/contactsStyle2.css?v=version2">
 
         <!-- jQuery e plugin JavaScript  -->
         <script src="http://code.jquery.com/jquery.js"></script>
@@ -65,64 +65,74 @@
                 </div><!-- /.container-fluid -->
             </nav>
 
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <h1 class="span">Contattami</h1>
+
             <div class="container">
-                <h2 class="text-center">Contattami</h2>
-                <div class="errors">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div class="main-login main-center">
+                            <form class="form-horizontal" method="post" action="#">
+                                <div class="form-group">
+                                    <label for="username" class="cols-sm-2 control-label">Nome</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                                            <input type="text" class="form-control" name="username" id="username"  placeholder="Inserisci il tuo nome"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="cols-sm-2 control-label">Indirizzo email</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-inbox" aria-hidden="true"></span></i></span>
+                                            <input type="password" class="form-control" name="password" id="password"  placeholder="Inserisci il tuo indirizzo mail"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="cols-sm-2 control-label">Oggetto</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span></i></span>
+                                            <input type="password" class="form-control" name="password" id="password"  placeholder="Inserisci una parola chiave"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="cols-sm-2 control-label">Messaggio</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></i></span>
+                                            <textarea class="form-control" name="password" id="password"  placeholder="Inserisci il tuo messaggio"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <a href="pagine_area_riservata/pagine_utente/area_utente.html" type="button" class="btn btn-primary btn-lg btn-block login-button">Contattami</a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="contacts">
+                            <h1>Architetto Federica Bertoldi</h1>
+                            <h2>Numero di telefono: </h2>
+                            <h2>E-mail: </h2>
+                            <a href="mailto:#">federica@bertoldi.it</a>
+                        </div>
+                    </div>
                 </div>
-                <form action="<?=$_SERVER['PHP_SELF']?>" class="contact-form" method="POST">
-                    <div class="form-group">
-                        <input type="text" name="username" id="username" class="username form-control" placeholder="Il tuo nome" value="">
-                        <i class="fa fa-user"></i>
-                        <span class="asterix">*</span>
-                        <span class="cross">x</span>
-                        <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
-                        <div class="alert alert-danger custom-alert">
-                            user must be more than 3 letter
-                        </div>
-                    </div>
 
 
-                    <div class="form-group">
-                        <input type="text" name="email" class=" email form-control" placeholder="La tua Email" value="">
-                        <i class="fa fa-envelope"></i>
-                        <span class="asterix">*</span>
-                        <span class="cross">x</span>
-                        <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
-                        <div class="alert alert-danger custom-alert">
-                            Email can not be empty
-                        </div>
-                    </div>
 
-
-                    <div class="form-group">
-                        <input type="text" name="subject" class="subject form-control" placeholder="A che cosa sei interessato?" value="">
-                        <i class="fa fa-pencil"></i>
-                        <span class="asterix">*</span>
-                        <span class="cross">x</span>
-                        <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
-                        <div class="alert alert-danger custom-alert">
-                            Subject can not be empty
-                        </div>
-                    </div>
-
-
-                    <div class="form-group">
-                        <textarea class=" message form-control" name="message" placeholder="Spiegati meglio"></textarea>
-                        <i class="fa fa-comments message-icon"></i>
-                        <span class="asterix">*</span>
-                        <span class="cross">x</span>
-                        <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
-                        <div class="alert alert-danger custom-alert">
-                            message should be more than <b>10</b> characteres
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="submit" value="Invia" class="btn btn-success btn-block">
-                        <i class="fa fa-paper-plane send-icon"></i>
-                    </div>
-                </form>
             </div>
 
             <!-- Footer -->

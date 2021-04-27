@@ -13,11 +13,11 @@
         <link rel="stylesheet" href="../../css/bootstrap.min.css">
         <link rel="stylesheet" href="../../css/myStyle.css?v=version2">
         <link rel="stylesheet" href="../../css/carousel.css?v=version2">
-        <link rel="stylesheet" href="../../css/reservedAreaStyle.css?v=version2">
+        <link rel="stylesheet" href="../../css/modifyAreaStyle.css?v=version2">
 
         <!-- jQuery e plugin JavaScript  -->
         <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -65,63 +65,63 @@
                 </div><!-- /.container-fluid -->
             </nav>
 
-            <h1>Benevenuto Amministratore</h1>
-            <h2>Area Articoli Blog</h2>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <a href="aggiungi_articolo.html">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="../../img/shop/libri-design.jpg">
-                            <h2>Aggiungi nuovo articolo</h2>
+            <h1 class="span">Aggiungi nuovo articolo</h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="main-login main-center">
+                            <form class="form-horizontal" method="post" action="#">
+                                <div class="form-group">
+                                    <label for="username" class="cols-sm-2 control-label">Titolo articolo</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                                            <input type="text" class="form-control" name="username" id="username"  placeholder="Inserisci il titolo dell'articolo"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="cols-sm-2 control-label">Descrizione sintetica</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-inbox" aria-hidden="true"></span></i></span>
+                                            <input type="password" class="form-control" name="password" id="password"  placeholder="Inserisci una descrizione sintetica"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="password" class="cols-sm-2 control-label">Corpo dell'articolo</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></i></span>
+                                            <textarea class="form-control" name="password" id="password"  placeholder="Inserisci il corpo dell'articolo"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="cols-sm-2 control-label">Immagini per il carousel</label>
+                                    <input type="file" id="files" name="files" multiple><br><br>
+                                </div>
+
+
+                                <div class="form-group ">
+                                    <a href="#" type="button" class="btn btn-primary btn-lg btn-block login-button">Aggiungi articolo</a>
+                                </div>
+
+                            </form>
                         </div>
-                    </a>
+                    </div>
+
                 </div>
-                <div class="col-xs-12 col-md-6">
-                    <a href="lista_articoli.html">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="../../img/shop/party-kit.jpg">
-                            <h2>Modifica o rimuovi articoli</h2>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <h2>Area Consulenze</h2>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <a href="aggiungi_consulenza.html">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="../../img/consulenze/cucina-moderna.jpg">
-                            <h2>Aggiungi nuova consulenza</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <a href="#">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="../../img/consulenze/camera-da-letto-completa-moderna.jpg">
-                            <h2>Modifica o elimina consulenza</h2>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <h2>Area Prodotti</h2>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <a href="aggiungi_prodotto.html">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="../../img/consulenze/cucina-moderna.jpg">
-                            <h2>Aggiungi nuovo prodotto</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <a href="#">
-                        <div class="a-box">
-                            <img class="resize-box-img" src="../../img/consulenze/camera-da-letto-completa-moderna.jpg">
-                            <h2>Modifica o elimina prodotto</h2>
-                        </div>
-                    </a>
-                </div>
+
+
+
             </div>
 
             <!-- Footer -->
@@ -129,7 +129,7 @@
                     <div class="container py-5">
                         <div class="row py-4">
                             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                                <img src="../../img/LOGO.jpg" alt="" width="180" class="mb-3 footer-logo">
+                                <img src="img/LOGO.jpg" alt="" width="180" class="mb-3 footer-logo">
                                 <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                                 <!--<ul class="list-inline mt-4">
                                     <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -149,7 +149,7 @@
                             <div class="col-lg-4 col-md-6 mb-lg-0">
                                 <h3 class="text-uppercase font-weight-bold mb-4">Seguici su</h3>
                                 <a href="https://www.instagram.com">
-                                    <img src="../../img/insta_logo.png" width="40" class="mb-3">
+                                    <img src="img/insta_logo.png" width="40" class="mb-3">
                                 </a>
                             </div>
 
@@ -177,5 +177,6 @@
 
 
             </div><!-- /.container -->
+        </div>
     </body>
 </html>
