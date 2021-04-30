@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="added shoppingChart &amp; modifyArea pages">
-      <change afterPath="$PROJECT_DIR$/chi_sono.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/questionarioPageStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_richieste_consulenze.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/richiesta_consulenza.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagine_consulenze/questionario_consulenza.html" afterDir="false" />
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="adding booking page &amp; global navabar fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrello.html" beforeDir="false" afterPath="$PROJECT_DIR$/carrello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/consulenze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contatti.html" beforeDir="false" afterPath="$PROJECT_DIR$/contatti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_area_riservata/modifica_dati.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/modifica_dati.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_area_riservata/new_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/new_account.html" afterDir="false" />
@@ -23,12 +11,13 @@
       <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_prodotto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_prodotto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_articoli.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_articoli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_richieste_consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_richieste_consulenze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/richiesta_consulenza.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/richiesta_consulenza.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/area_utente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/area_utente.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/storico_prodotti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/storico_prodotti.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_blog/articolo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_blog/articolo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_consulenze/camera_letto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_consulenze/consulenza_easy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_shop/prodotto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_shop/prodotto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_consulenze/consulenza_easy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_consulenze/consulenza_easy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_consulenze/questionario_consulenza.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_consulenze/questionario_consulenza.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pagine_consulenze" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -83,18 +72,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Interior_design_website" />
       <recent name="C:\wamp64\www\Interior_design_website\pagine_consulenze" />
       <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata\pagine_utente" />
       <recent name="C:\wamp64\www\Interior_design_website\css" />
-      <recent name="C:\wamp64\www\Interior_design_website" />
       <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata\pagine_admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata\pagine_admin" />
-      <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata" />
       <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata\pagine_utente" />
-      <recent name="C:\wamp64\www\Interior_design_website\pagine_shop" />
+      <recent name="C:\wamp64\www\Interior_design_website\pagine_area_riservata" />
       <recent name="C:\wamp64\www\Interior_design_website\pagine_blog" />
+      <recent name="C:\wamp64\www\Interior_design_website\pagine_consulenze" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,7 +115,8 @@
       <workItem from="1619526262433" duration="3788000" />
       <workItem from="1619530116218" duration="4228000" />
       <workItem from="1619545212871" duration="470000" />
-      <workItem from="1619612235123" duration="5472000" />
+      <workItem from="1619612235123" duration="5712000" />
+      <workItem from="1619786086472" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -226,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619545668523</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="adding booking page &amp; global navabar fix">
+      <created>1619617896613</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619617896613</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +254,8 @@
     <MESSAGE value="added external user area" />
     <MESSAGE value="structure refactoring &amp; add admin page" />
     <MESSAGE value="added shoppingChart &amp; modifyArea pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added shoppingChart &amp; modifyArea pages" />
+    <MESSAGE value="adding booking page &amp; global navabar fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding booking page &amp; global navabar fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
