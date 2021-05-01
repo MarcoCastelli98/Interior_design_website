@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="adding booking page &amp; global navabar fix">
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="global navbar fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/modifica_dati.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/modifica_dati.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/new_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/new_account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_articolo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_articolo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_consulenza.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_consulenza.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_prodotto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/aggiungi_prodotto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_articoli.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_articoli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_richieste_consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/lista_richieste_consulenze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/richiesta_consulenza.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/richiesta_consulenza.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/area_utente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/area_utente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/storico_prodotti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/storico_prodotti.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi_sono.html" beforeDir="false" afterPath="$PROJECT_DIR$/chi_sono.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/consulenze.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_blog/articolo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_blog/articolo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_consulenze/consulenza_easy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_consulenze/consulenza_easy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_consulenze/questionario_consulenza.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_consulenze/questionario_consulenza.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -116,7 +107,9 @@
       <workItem from="1619530116218" duration="4228000" />
       <workItem from="1619545212871" duration="470000" />
       <workItem from="1619612235123" duration="5712000" />
-      <workItem from="1619786086472" duration="797000" />
+      <workItem from="1619786086472" duration="3312000" />
+      <workItem from="1619871497694" duration="2022000" />
+      <workItem from="1619875795381" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -223,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619617896613</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="global navbar fix">
+      <created>1619786949451</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619786949451</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +255,8 @@
     <MESSAGE value="structure refactoring &amp; add admin page" />
     <MESSAGE value="added shoppingChart &amp; modifyArea pages" />
     <MESSAGE value="adding booking page &amp; global navabar fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding booking page &amp; global navabar fix" />
+    <MESSAGE value="global navbar fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="global navbar fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
