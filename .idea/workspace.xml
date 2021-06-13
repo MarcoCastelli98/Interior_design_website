@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="global navbar fix">
+    <list default="true" id="f216f59f-f1af-427d-b80c-165885cd37e6" name="Default Changelist" comment="minimal deisgn fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chi_sono.html" beforeDir="false" afterPath="$PROJECT_DIR$/chi_sono.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consulenze.html" beforeDir="false" afterPath="$PROJECT_DIR$/consulenze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine_blog/articolo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_blog/articolo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrello.html" beforeDir="false" afterPath="$PROJECT_DIR$/carrello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_admin/area_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/area_utente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/area_utente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/storico_prodotti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_area_riservata/pagine_utente/storico_prodotti.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine_consulenze/consulenza_easy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_consulenze/consulenza_easy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine_shop/prodotto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine_shop/prodotto.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +111,9 @@
       <workItem from="1619786086472" duration="3312000" />
       <workItem from="1619871497694" duration="2022000" />
       <workItem from="1619875795381" duration="620000" />
+      <workItem from="1619877427777" duration="35000" />
+      <workItem from="1623567152544" duration="21000" />
+      <workItem from="1623567257856" duration="2333000" />
     </task>
     <task id="LOCAL-00001" summary="ended the homepage design (footer left) and started consulenze page">
       <created>1618737304014</created>
@@ -223,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619786949451</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="minimal deisgn fixes">
+      <created>1619877450403</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619877450403</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +267,8 @@
     <MESSAGE value="added shoppingChart &amp; modifyArea pages" />
     <MESSAGE value="adding booking page &amp; global navabar fix" />
     <MESSAGE value="global navbar fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="global navbar fix" />
+    <MESSAGE value="minimal deisgn fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimal deisgn fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
